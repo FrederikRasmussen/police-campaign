@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="US-ASCII" ?>
+<equipment_list id="a964d9c6-800f-4177-9dbf-318d2d68881a" version="1">
+	<equipment_container version="4" open="yes">
+		<description>Standard Loadout</description>
+		<legality_class>2</legality_class>
+		<value>0</value>
+		<categories>
+			<category>loadout</category>
+		</categories>
+		<equipment_container version="4" open="yes">
+			<description>Fragmentation Vest</description>
+			<tech_level>8</tech_level>
+			<legality_class>3</legality_class>
+			<value>350</value>
+			<weight>9 lb</weight>
+			<reference>HT66,HT67</reference>
+			<notes>+3 DR to torso, groin against piercing and cutting. Functions as Basic Load-Bearing Vest (HT54).</notes>
+			<categories>
+				<category>armour</category>
+			</categories>
+			<dr_bonus>
+				<location>torso</location>
+				<amount>2</amount>
+			</dr_bonus>
+			<dr_bonus>
+				<location>groin</location>
+				<amount>2</amount>
+			</dr_bonus>
+			<equipment_container version="4" open="yes">
+				<description>Back Plate Pocket</description>
+				<value>0</value>
+				<categories>
+					<category>storage</category>
+				</categories>
+			</equipment_container>
+			<equipment_container version="4" open="yes">
+				<description>Front Plate Pocket</description>
+				<value>0</value>
+				<categories>
+					<category>storage</category>
+				</categories>
+				<equipment version="4">
+					<quantity>1</quantity>
+					<description>Trauma Plate</description>
+					<tech_level>8</tech_level>
+					<legality_class>2</legality_class>
+					<value>600</value>
+					<weight>8 lb</weight>
+					<reference>HT66</reference>
+					<categories>
+						<category>armour</category>
+					</categories>
+					<dr_bonus>
+						<location>torso</location>
+						<amount>25</amount>
+					</dr_bonus>
+				</equipment>
+			</equipment_container>
+			<equipment_container version="4" open="yes">
+				<description>Load-Bearing Vest</description>
+				<legality_class>4</legality_class>
+				<value>0</value>
+				<categories>
+					<category>storage</category>
+				</categories>
+				<equipment_container version="4" open="yes">
+					<description>Flashlight Pouch</description>
+					<legality_class>4</legality_class>
+					<value>10</value>
+					<categories>
+						<category>storage</category>
+					</categories>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Flashlight</description>
+						<tech_level>6</tech_level>
+						<legality_class>4</legality_class>
+						<value>20</value>
+						<weight>1 lb</weight>
+						<notes>10-yard beam. 2xS/50 hrs.</notes>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+				</equipment_container>
+				<equipment_container version="4" open="yes">
+					<description>Main Pouch</description>
+					<legality_class>4</legality_class>
+					<value>10</value>
+					<notes>Segmented pouch for small odds and ends.</notes>
+					<categories>
+						<category>storage</category>
+					</categories>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Black Marker</description>
+						<legality_class>4</legality_class>
+						<value>0</value>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Chalk</description>
+						<legality_class>4</legality_class>
+						<value>0</value>
+						<categories>
+							<category>Utility</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Compass</description>
+						<tech_level>5</tech_level>
+						<legality_class>4</legality_class>
+						<value>25</value>
+						<reference>HT52</reference>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Flashbang Pin</description>
+						<legality_class>4</legality_class>
+						<value>0</value>
+						<notes>Carried in tiny room on the outside of the pouch for easy access.</notes>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Mini-Flashlight</description>
+						<tech_level>8</tech_level>
+						<legality_class>4</legality_class>
+						<value>10</value>
+						<weight>0.25 lb</weight>
+						<reference>HT52</reference>
+						<notes>5-yard beam. 2xXS/10hr. Replaceable lens colour.</notes>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>100</quantity>
+						<description>Cord</description>
+						<tech_level>7</tech_level>
+						<legality_class>4</legality_class>
+						<value>0.15</value>
+						<weight>0.01 lb</weight>
+						<reference>HT56</reference>
+						<notes>"Quantity" represents yards. Supports 55lbs.</notes>
+						<categories>
+							<category>General Equipment</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Notepad</description>
+						<legality_class>4</legality_class>
+						<value>0</value>
+						<weight>0.2 lb</weight>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Pen</description>
+						<legality_class>4</legality_class>
+						<value>0</value>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Seatbelt Cutter &amp; Window Punch</description>
+						<legality_class>4</legality_class>
+						<value>10</value>
+						<weight>0.3 lb</weight>
+						<notes>No roll required to break windows or cut seatbelts.</notes>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Tactical Folding Knife</description>
+						<tech_level>8</tech_level>
+						<legality_class>4</legality_class>
+						<value>30</value>
+						<weight>0.5 lb</weight>
+						<reference>HT200</reference>
+						<melee_weapon>
+							<damage>sw-3 cut</damage>
+							<strength>5</strength>
+							<reach>C,1</reach>
+							<parry>-1</parry>
+							<default>
+								<type>Skill</type>
+								<name>Force Sword</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shortsword</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>DX</type>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Knife</name>
+								<modifier>0</modifier>
+							</default>
+						</melee_weapon>
+						<melee_weapon>
+							<damage>thr-1 imp</damage>
+							<strength>5</strength>
+							<reach>C</reach>
+							<parry>-1</parry>
+							<default>
+								<type>DX</type>
+								<modifier>-4</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Knife</name>
+								<modifier>0</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Force Sword</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Main-Gauche</name>
+								<modifier>-3</modifier>
+							</default>
+							<default>
+								<type>Skill</type>
+								<name>Shortsword</name>
+								<modifier>-3</modifier>
+							</default>
+						</melee_weapon>
+						<categories>
+							<category>weapon</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>5</quantity>
+						<description>Latex Gloves</description>
+						<legality_class>4</legality_class>
+						<value>0</value>
+						<weight>0.05 lb</weight>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+				</equipment_container>
+				<equipment_container version="4" open="yes">
+					<description>Multi-Tool Clip</description>
+					<legality_class>4</legality_class>
+					<value>0</value>
+					<categories>
+						<category>storage</category>
+					</categories>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Multi-Tool</description>
+						<tech_level>5</tech_level>
+						<legality_class>4</legality_class>
+						<value>50</value>
+						<weight>0.5 lb</weight>
+						<reference>HT26</reference>
+						<notes>Pliers, screw- and hex- drivers, knife, ruler. Minimum improvised equipment (-5 quality).</notes>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+				</equipment_container>
+				<equipment version="4">
+					<quantity>2</quantity>
+					<description>Primary Magazine Pouch</description>
+					<legality_class>4</legality_class>
+					<value>10</value>
+					<notes>Magazine pouch for your primary weapon.</notes>
+					<categories>
+						<category>storage</category>
+					</categories>
+				</equipment>
+				<equipment version="4">
+					<quantity>1</quantity>
+					<description>Secondary Magazine Pouch</description>
+					<legality_class>4</legality_class>
+					<value>10</value>
+					<notes>Magazine pouch for your secondary weapon.</notes>
+					<categories>
+						<category>storage</category>
+					</categories>
+				</equipment>
+				<equipment_container version="4" open="yes">
+					<description>Trauma Kit</description>
+					<legality_class>4</legality_class>
+					<value>10</value>
+					<categories>
+						<category>storage</category>
+					</categories>
+				</equipment_container>
+			</equipment_container>
+		</equipment_container>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Ballistic Sunglasses</description>
+			<tech_level>8</tech_level>
+			<legality_class>4</legality_class>
+			<value>35</value>
+			<reference>HT71</reference>
+			<categories>
+				<category>armour</category>
+			</categories>
+			<dr_bonus>
+				<location>eyes</location>
+				<amount>4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Sharp-Protective Gloves</description>
+			<tech_level>8</tech_level>
+			<legality_class>4</legality_class>
+			<value>30</value>
+			<weight>1 lb</weight>
+			<reference>HT69</reference>
+			<notes>Flexible. DR+2 vs. imp, cut.</notes>
+			<categories>
+				<category>armour</category>
+			</categories>
+			<dr_bonus>
+				<location>hands</location>
+				<amount>1</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Fire-Resistant Balaclava</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<weight>0.05 lb</weight>
+			<notes>Provides DR1 against burning</notes>
+			<categories>
+				<category>clothing</category>
+			</categories>
+		</equipment>
+	</equipment_container>
+</equipment_list>
