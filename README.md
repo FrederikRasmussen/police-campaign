@@ -52,7 +52,8 @@ particularly difficult gear, such as E.O.D. outfits.
 | Failure          | Underdose. Ignore Reeling penalties and halve the shock from any injury.                                              |
 | Critical Failure | Overdose. As Success, but the recipient is also Numb and has to pass a HT-8 roll to remain conscious.                 |
 
-Regardless of dosage, the effects last for one hour, and gives Laziness for non-life threatening scenarios such as post-op cleanup.
+Regardless of dosage, the effects last for one hour, and gives Laziness for
+non-life threatening scenarios such as post-op cleanup.
 
 #### Epinephrine Autoinjector
 
