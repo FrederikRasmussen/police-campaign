@@ -16,6 +16,8 @@ Mostly, this is not intended to become a primary focus.
 
 ## Mechanical Information
 
+### Basics
+
 - Tech Level 8
 - 125 CP Characters
   - Non-operational skills and advantages are considered flavour and should
@@ -30,6 +32,39 @@ Mostly, this is not intended to become a primary focus.
 - Major additional rules: Low-light penalties, non-combat bonusses to shooting,
   stealth, alternate Guns specialties and techniques.
 - House rules: Additional medical supplies
+
+### Implicit Advantages/Disadvantages
+
+The following are all considered 0-point features. Feel free to not them on your
+sheet in whichever manner you wish.
+
+- Duty (Constant, Extremely Hazardous; Police)
+- Patron (Constant, Big-City Police Department; Equipment up to $20k)
+
+### Recommended Advantages/Disadvantages
+
+Following advantages and disadvantages are highly recommended for almost any
+character in the campaign.
+
+**Combat Reflexes [15]** This simple advantage provides a bonus to all defence
+rolls, and makes sure you're never caught flat-footed in an ambush.
+
+**Sense of Duty (Team) [-5]** Not only will management and your superiors
+approve of your attempts to save and preserve good officers, but you'll also be
+able to make some great friendships along the way if your team isn't dead. It's
+free points all around!
+
+**Acute Hearing [2]** Being able to guesstimate how many people are beyond a
+door, noticing a jam from a friendly or hostile, hearing someone trying to ready
+a weapon, and more. Hearing might be the difference between being taken by
+surprise, and making a great tactical decision.
+
+**Battle Drills [1]** This perk lets you 'Form Up' into tactical positions as a
+team and, among other benefits, lets you ignore penalties for firing through
+occupied hexes of other members that have formed up.
+
+**Green Eyes [1]** Lets you ignore the No Peripheral vision for wearing night-
+vision equipment, and reduces attack penalties on shooting with the equipment.
 
 ## Gameplay Format
 
