@@ -31,6 +31,35 @@ Mostly, this is not intended to become a primary focus.
   stealth, alternate Guns specialties and techniques.
 - House rules: Additional medical supplies
 
+## Gameplay Format
+
+Gameplay will happen in roughly three stages:
+
+1. A briefing provided pre-session. The briefing may include battlemaps, count
+   of enemy combatants, assessment of their equipment, possible entry points and
+   more. The briefing info should be provided 48 hours before a play session,
+   and if additional information is desired, those questions should be asked in
+   that time on Discord.
+
+2. Insertion and the operation. This is done real-time during the game session,
+   first, the insertion is decided under the pressure of a 15 minute timer. If
+   the team does not have a unanimous decision by then, entry point is
+   determined at random. Once entry is established, a battlemap is applied and
+   we begin round-based (or close-to round-based) movement and actions, kicking
+   down doors, firing at tangos, and all the other good stuff.
+
+3. Initial debrief is provided at end-of-session. Players should get 30 minutes
+   or so to give their own account (effectively giving a report) of the
+   operation. If time is short, this report is cut and players are free to go.
+   Regardless of reports and accounts, complete debrief is given with mechanical
+   effects described, and points awarded 48 hours after game session.
+   (I will try to give a heads up if I cannot do this within 48 hours)
+
+## House Rules
+
+This section contains additional house rules. So far, it is a simple list of
+medical items - these can also be found in the related equipment library for GCS
+
 ### Medical Supplies
 
 This section contains information on the custom medical supplies added to this
