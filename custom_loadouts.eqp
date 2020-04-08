@@ -28,6 +28,7 @@
 			</dr_bonus>
 			<equipment_container version="4" open="yes">
 				<description>Back Plate Pocket</description>
+				<legality_class>4</legality_class>
 				<value>0</value>
 				<categories>
 					<category>storage</category>
@@ -35,6 +36,7 @@
 			</equipment_container>
 			<equipment_container version="4" open="yes">
 				<description>Front Plate Pocket</description>
+				<legality_class>4</legality_class>
 				<value>0</value>
 				<categories>
 					<category>storage</category>
@@ -150,7 +152,7 @@
 						<reference>HT56</reference>
 						<notes>"Quantity" represents yards. Supports 55lbs.</notes>
 						<categories>
-							<category>General Equipment</category>
+							<category>utility</category>
 						</categories>
 					</equipment>
 					<equipment version="4">
@@ -308,12 +310,81 @@
 					</categories>
 				</equipment>
 				<equipment_container version="4" open="yes">
-					<description>Trauma Kit</description>
+					<description>First Aid Kit</description>
 					<legality_class>4</legality_class>
 					<value>10</value>
 					<categories>
 						<category>storage</category>
 					</categories>
+					<equipment version="4">
+						<quantity>4</quantity>
+						<description>Analgesic</description>
+						<tech_level>6</tech_level>
+						<legality_class>4</legality_class>
+						<value>0.03</value>
+						<reference>HT226</reference>
+						<notes>Per dose.</notes>
+						<categories>
+							<category>Drugs and Poisons</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Epinephrine Autoinjector</description>
+						<legality_class>2</legality_class>
+						<value>0</value>
+						<notes>HT check to recover consciousness</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Morphine Autoinjector</description>
+						<legality_class>2</legality_class>
+						<value>0</value>
+						<notes>Requires Soldier roll; ignore Reeling penalties.</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Immobilising Aluminium Splint</description>
+						<legality_class>4</legality_class>
+						<value>10</value>
+						<weight>0.1 lb</weight>
+						<notes>Requires Soldier+2 roll; removes crippling wound</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>2</quantity>
+						<description>Bandage</description>
+						<tech_level>5</tech_level>
+						<legality_class>4</legality_class>
+						<value>1</value>
+						<weight>0.1 lb</weight>
+						<reference>HT221</reference>
+						<notes>One wound.</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Hemostatic Bandage</description>
+						<tech_level>8</tech_level>
+						<legality_class>4</legality_class>
+						<value>20</value>
+						<weight>0.1 lb</weight>
+						<reference>HT221</reference>
+						<notes>+1 (quality) to bandage a bleeding wound.</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
 				</equipment_container>
 			</equipment_container>
 		</equipment_container>
