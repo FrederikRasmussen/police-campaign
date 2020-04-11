@@ -1,12 +1,539 @@
 <?xml version="1.0" encoding="US-ASCII" ?>
 <equipment_list id="a964d9c6-800f-4177-9dbf-318d2d68881a" version="1">
 	<equipment_container version="4" open="yes">
+		<description>M4A1 SOPMOD, 5.56x45mm Loadout</description>
+		<legality_class>4</legality_class>
+		<value>0</value>
+		<equipment_container version="4" open="yes">
+			<description>Accessories</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Collimating Sight, Battery</description>
+				<tech_level>7</tech_level>
+				<legality_class>4</legality_class>
+				<value>250</value>
+				<weight>0.5 lb</weight>
+				<reference>HT156</reference>
+				<notes>XS/250hrs.</notes>
+				<categories>
+					<category>Firearm Accessories</category>
+				</categories>
+			</equipment>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Small Tactical Light</description>
+				<tech_level>8</tech_level>
+				<legality_class>4</legality_class>
+				<value>100</value>
+				<weight>0.25 lb</weight>
+				<reference>HT52</reference>
+				<melee_weapon>
+					<damage>thr cr</damage>
+					<usage>Punch</usage>
+					<reach>C</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Boxing</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<notes>25-yard beam. 2xXS/2hrs.</notes>
+				<categories>
+					<category>General Equipment</category>
+				</categories>
+			</equipment>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Two-Point Sling, Synthetic</description>
+				<tech_level>7</tech_level>
+				<legality_class>4</legality_class>
+				<value>10</value>
+				<weight>0.3 lb</weight>
+				<reference>TS72</reference>
+				<categories>
+					<category>Mountings</category>
+					<category>Tactical Equipment</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Colt M4A1 SOPMOD, 5.56x45mm</description>
+			<tech_level>8</tech_level>
+			<legality_class>2</legality_class>
+			<value>950</value>
+			<weight>6.3 lb</weight>
+			<reference>HT120</reference>
+			<ranged_weapon>
+				<damage>4d+2(0.5) pi+</damage>
+				<strength>9&#8224;</strength>
+				<usage>Hollow-Point</usage>
+				<accuracy>4</accuracy>
+				<range>750/2,900</range>
+				<rate_of_fire>15</rate_of_fire>
+				<shots>30+1(3)</shots>
+				<bulk>-4</bulk>
+				<recoil>2</recoil>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+			</ranged_weapon>
+			<notes>4x accessory rails, unloaded weight</notes>
+			<categories>
+				<category>Firearms</category>
+			</categories>
+		</equipment>
+		<equipment_container version="4" open="yes">
+			<description>Magazines</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<notes>Loaded and carried.</notes>
+			<equipment version="4">
+				<quantity>3</quantity>
+				<description>30-round M4A1 Magazine w/ Loop, 5.56x45mm HP</description>
+				<legality_class>4</legality_class>
+				<value>34</value>
+				<weight>1 lb</weight>
+				<notes>+1 Fast-Draw (Ammo)</notes>
+			</equipment>
+		</equipment_container>
+	</equipment_container>
+	<equipment_container version="4" open="no">
+		<description>Remington 870P, 12G 2.75" Loadout (Rifle Stock)</description>
+		<legality_class>4</legality_class>
+		<value>0</value>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Remington Model 870P, 12G 2.75"</description>
+			<tech_level>7</tech_level>
+			<legality_class>3</legality_class>
+			<value>400</value>
+			<weight>7.53 lb</weight>
+			<reference>HT104</reference>
+			<ranged_weapon>
+				<damage>1d+1 pi</damage>
+				<strength>10&#8224;</strength>
+				<usage>Buckshot</usage>
+				<accuracy>3</accuracy>
+				<range>40/800</range>
+				<rate_of_fire>2x9</rate_of_fire>
+				<shots>7+1(2i)</shots>
+				<bulk>-5</bulk>
+				<recoil>1/5</recoil>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+			</ranged_weapon>
+			<notes>Unloaded weight</notes>
+			<categories>
+				<category>Firearms</category>
+			</categories>
+		</equipment>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Shell Bag, small (25 Shells)</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>35</value>
+			<weight>0.5 lb</weight>
+			<reference>TS73</reference>
+			<notes>+1 Fast- Draw (Ammo)</notes>
+			<categories>
+				<category>Reloading</category>
+				<category>Tactical Equipment</category>
+			</categories>
+		</equipment>
+		<equipment_container version="4" open="yes">
+			<description>Accessories</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Small Tactical Light</description>
+				<tech_level>8</tech_level>
+				<legality_class>4</legality_class>
+				<value>100</value>
+				<weight>0.25 lb</weight>
+				<reference>HT52</reference>
+				<melee_weapon>
+					<damage>thr cr</damage>
+					<usage>Punch</usage>
+					<reach>C</reach>
+					<parry>0</parry>
+					<block>No</block>
+					<default>
+						<type>DX</type>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Boxing</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Brawling</name>
+						<modifier>0</modifier>
+					</default>
+					<default>
+						<type>Skill</type>
+						<name>Karate</name>
+						<modifier>0</modifier>
+					</default>
+				</melee_weapon>
+				<notes>25-yard beam. 2xXS/2hrs.</notes>
+				<categories>
+					<category>General Equipment</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+		<equipment_container version="4" open="yes">
+			<description>Ammunition</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<notes>Loaded and in bag.</notes>
+			<equipment version="4">
+				<quantity>32</quantity>
+				<description>12-gauge 2.75" Buckshot</description>
+				<legality_class>4</legality_class>
+				<value>0.5</value>
+				<weight>0.11 lb</weight>
+				<reference>HT176</reference>
+				<notes>Light cased.</notes>
+				<categories>
+					<category>Ammunition and Warheads</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+	</equipment_container>
+	<equipment_container version="4" open="no">
+		<description>Remington 870P, 12G 2.75" Loadout (No Stock)</description>
+		<legality_class>4</legality_class>
+		<value>0</value>
+		<notes>Intended as door breaching tool.</notes>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Remington Model 870P cruiser, 12G 2.75"</description>
+			<tech_level>7</tech_level>
+			<legality_class>3</legality_class>
+			<value>400</value>
+			<weight>6.26 lb</weight>
+			<reference>HT104</reference>
+			<ranged_weapon>
+				<damage>5d(0.5) pi++</damage>
+				<strength>12&#8224;</strength>
+				<usage>Frangible</usage>
+				<accuracy>3</accuracy>
+				<range>90/2160</range>
+				<rate_of_fire>2</rate_of_fire>
+				<shots>4+1(2i)</shots>
+				<bulk>-3</bulk>
+				<recoil>1/6</recoil>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>DX</type>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Pistol</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Rifle</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Musket</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Shotgun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Machine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Submachine Gun</specialization>
+					<modifier>-2</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Gun!</name>
+					<modifier>0</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Grenade Launcher</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Gyroc</specialization>
+					<modifier>-4</modifier>
+				</default>
+				<default>
+					<type>Skill</type>
+					<name>Guns</name>
+					<specialization>Light Anti-Armor Weapon</specialization>
+					<modifier>-4</modifier>
+				</default>
+			</ranged_weapon>
+			<notes>Unloaded weight, no stock.</notes>
+			<categories>
+				<category>Firearms</category>
+			</categories>
+		</equipment>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Shell Bag, small (25 Shells)</description>
+			<tech_level>6</tech_level>
+			<legality_class>4</legality_class>
+			<value>35</value>
+			<weight>0.5 lb</weight>
+			<reference>TS73</reference>
+			<notes>+1 Fast- Draw (Ammo)</notes>
+			<categories>
+				<category>Reloading</category>
+				<category>Tactical Equipment</category>
+			</categories>
+		</equipment>
+		<equipment_container version="4" open="yes">
+			<description>Accessories</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<equipment version="4">
+				<quantity>1</quantity>
+				<description>Vertical Foregrip</description>
+				<tech_level>6</tech_level>
+				<legality_class>4</legality_class>
+				<value>30</value>
+				<weight>0.5 lb</weight>
+				<reference>TS176</reference>
+				<notes>+2 to Retain Weapon</notes>
+			</equipment>
+		</equipment_container>
+		<equipment_container version="4" open="yes">
+			<description>Ammunition</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<notes>Loaded and in bag.</notes>
+			<equipment version="4">
+				<quantity>29</quantity>
+				<description>12-gauge 2.75" Frangible</description>
+				<legality_class>4</legality_class>
+				<value>0.75</value>
+				<weight>0.11 lb</weight>
+				<reference>HT176</reference>
+				<categories>
+					<category>Ammunition and Warheads</category>
+				</categories>
+			</equipment>
+		</equipment_container>
+	</equipment_container>
+	<equipment_container version="4" open="no">
 		<description>Standard Loadout</description>
 		<legality_class>2</legality_class>
 		<value>0</value>
 		<categories>
 			<category>loadout</category>
 		</categories>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Ballistic Sunglasses</description>
+			<tech_level>8</tech_level>
+			<legality_class>4</legality_class>
+			<value>35</value>
+			<reference>HT71</reference>
+			<categories>
+				<category>armour</category>
+			</categories>
+			<dr_bonus>
+				<location>eyes</location>
+				<amount>4</amount>
+			</dr_bonus>
+		</equipment>
+		<equipment version="4">
+			<quantity>1</quantity>
+			<description>Fire-Resistant Balaclava</description>
+			<legality_class>4</legality_class>
+			<value>0</value>
+			<weight>0.05 lb</weight>
+			<notes>Provides DR1 against burning</notes>
+			<categories>
+				<category>clothing</category>
+			</categories>
+		</equipment>
 		<equipment_container version="4" open="yes">
 			<description>Fragmentation Vest</description>
 			<tech_level>8</tech_level>
@@ -66,6 +593,83 @@
 					<category>storage</category>
 				</categories>
 				<equipment_container version="4" open="yes">
+					<description>First Aid Kit</description>
+					<legality_class>4</legality_class>
+					<value>10</value>
+					<categories>
+						<category>storage</category>
+					</categories>
+					<equipment version="4">
+						<quantity>4</quantity>
+						<description>Analgesic</description>
+						<tech_level>6</tech_level>
+						<legality_class>4</legality_class>
+						<value>0.03</value>
+						<reference>HT226</reference>
+						<notes>Per dose.</notes>
+						<categories>
+							<category>Drugs and Poisons</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>2</quantity>
+						<description>Bandage</description>
+						<tech_level>5</tech_level>
+						<legality_class>4</legality_class>
+						<value>1</value>
+						<weight>0.1 lb</weight>
+						<reference>HT221</reference>
+						<notes>One wound.</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Epinephrine Autoinjector</description>
+						<legality_class>2</legality_class>
+						<value>0</value>
+						<notes>HT check to recover consciousness</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Hemostatic Bandage</description>
+						<tech_level>8</tech_level>
+						<legality_class>4</legality_class>
+						<value>20</value>
+						<weight>0.1 lb</weight>
+						<reference>HT221</reference>
+						<notes>+1 (quality) to bandage a bleeding wound.</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Immobilising Aluminium Splint</description>
+						<legality_class>4</legality_class>
+						<value>10</value>
+						<weight>0.1 lb</weight>
+						<notes>Requires Soldier+2 roll; removes crippling wound</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>1</quantity>
+						<description>Morphine Autoinjector</description>
+						<legality_class>2</legality_class>
+						<value>0</value>
+						<notes>Requires Soldier roll; ignore Reeling penalties.</notes>
+						<categories>
+							<category>medical supplies</category>
+						</categories>
+					</equipment>
+				</equipment_container>
+				<equipment_container version="4" open="yes">
 					<description>Flashlight Pouch</description>
 					<legality_class>4</legality_class>
 					<value>10</value>
@@ -120,11 +724,34 @@
 						</categories>
 					</equipment>
 					<equipment version="4">
+						<quantity>100</quantity>
+						<description>Cord</description>
+						<tech_level>7</tech_level>
+						<legality_class>4</legality_class>
+						<value>0.15</value>
+						<weight>0.01 lb</weight>
+						<reference>HT56</reference>
+						<notes>"Quantity" represents yards. Supports 55lbs.</notes>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
 						<quantity>1</quantity>
 						<description>Flashbang Pin</description>
 						<legality_class>4</legality_class>
 						<value>0</value>
 						<notes>Carried in tiny room on the outside of the pouch for easy access.</notes>
+						<categories>
+							<category>utility</category>
+						</categories>
+					</equipment>
+					<equipment version="4">
+						<quantity>5</quantity>
+						<description>Latex Gloves</description>
+						<legality_class>4</legality_class>
+						<value>0</value>
+						<weight>0.05 lb</weight>
 						<categories>
 							<category>utility</category>
 						</categories>
@@ -138,19 +765,6 @@
 						<weight>0.25 lb</weight>
 						<reference>HT52</reference>
 						<notes>5-yard beam. 2xXS/10hr. Replaceable lens colour.</notes>
-						<categories>
-							<category>utility</category>
-						</categories>
-					</equipment>
-					<equipment version="4">
-						<quantity>100</quantity>
-						<description>Cord</description>
-						<tech_level>7</tech_level>
-						<legality_class>4</legality_class>
-						<value>0.15</value>
-						<weight>0.01 lb</weight>
-						<reference>HT56</reference>
-						<notes>"Quantity" represents yards. Supports 55lbs.</notes>
 						<categories>
 							<category>utility</category>
 						</categories>
@@ -257,16 +871,6 @@
 							<category>weapon</category>
 						</categories>
 					</equipment>
-					<equipment version="4">
-						<quantity>5</quantity>
-						<description>Latex Gloves</description>
-						<legality_class>4</legality_class>
-						<value>0</value>
-						<weight>0.05 lb</weight>
-						<categories>
-							<category>utility</category>
-						</categories>
-					</equipment>
 				</equipment_container>
 				<equipment_container version="4" open="yes">
 					<description>Multi-Tool Clip</description>
@@ -309,100 +913,8 @@
 						<category>storage</category>
 					</categories>
 				</equipment>
-				<equipment_container version="4" open="yes">
-					<description>First Aid Kit</description>
-					<legality_class>4</legality_class>
-					<value>10</value>
-					<categories>
-						<category>storage</category>
-					</categories>
-					<equipment version="4">
-						<quantity>4</quantity>
-						<description>Analgesic</description>
-						<tech_level>6</tech_level>
-						<legality_class>4</legality_class>
-						<value>0.03</value>
-						<reference>HT226</reference>
-						<notes>Per dose.</notes>
-						<categories>
-							<category>Drugs and Poisons</category>
-						</categories>
-					</equipment>
-					<equipment version="4">
-						<quantity>1</quantity>
-						<description>Epinephrine Autoinjector</description>
-						<legality_class>2</legality_class>
-						<value>0</value>
-						<notes>HT check to recover consciousness</notes>
-						<categories>
-							<category>medical supplies</category>
-						</categories>
-					</equipment>
-					<equipment version="4">
-						<quantity>1</quantity>
-						<description>Morphine Autoinjector</description>
-						<legality_class>2</legality_class>
-						<value>0</value>
-						<notes>Requires Soldier roll; ignore Reeling penalties.</notes>
-						<categories>
-							<category>medical supplies</category>
-						</categories>
-					</equipment>
-					<equipment version="4">
-						<quantity>1</quantity>
-						<description>Immobilising Aluminium Splint</description>
-						<legality_class>4</legality_class>
-						<value>10</value>
-						<weight>0.1 lb</weight>
-						<notes>Requires Soldier+2 roll; removes crippling wound</notes>
-						<categories>
-							<category>medical supplies</category>
-						</categories>
-					</equipment>
-					<equipment version="4">
-						<quantity>2</quantity>
-						<description>Bandage</description>
-						<tech_level>5</tech_level>
-						<legality_class>4</legality_class>
-						<value>1</value>
-						<weight>0.1 lb</weight>
-						<reference>HT221</reference>
-						<notes>One wound.</notes>
-						<categories>
-							<category>medical supplies</category>
-						</categories>
-					</equipment>
-					<equipment version="4">
-						<quantity>1</quantity>
-						<description>Hemostatic Bandage</description>
-						<tech_level>8</tech_level>
-						<legality_class>4</legality_class>
-						<value>20</value>
-						<weight>0.1 lb</weight>
-						<reference>HT221</reference>
-						<notes>+1 (quality) to bandage a bleeding wound.</notes>
-						<categories>
-							<category>medical supplies</category>
-						</categories>
-					</equipment>
-				</equipment_container>
 			</equipment_container>
 		</equipment_container>
-		<equipment version="4">
-			<quantity>1</quantity>
-			<description>Ballistic Sunglasses</description>
-			<tech_level>8</tech_level>
-			<legality_class>4</legality_class>
-			<value>35</value>
-			<reference>HT71</reference>
-			<categories>
-				<category>armour</category>
-			</categories>
-			<dr_bonus>
-				<location>eyes</location>
-				<amount>4</amount>
-			</dr_bonus>
-		</equipment>
 		<equipment version="4">
 			<quantity>1</quantity>
 			<description>Sharp-Protective Gloves</description>
@@ -419,17 +931,6 @@
 				<location>hands</location>
 				<amount>1</amount>
 			</dr_bonus>
-		</equipment>
-		<equipment version="4">
-			<quantity>1</quantity>
-			<description>Fire-Resistant Balaclava</description>
-			<legality_class>4</legality_class>
-			<value>0</value>
-			<weight>0.05 lb</weight>
-			<notes>Provides DR1 against burning</notes>
-			<categories>
-				<category>clothing</category>
-			</categories>
 		</equipment>
 	</equipment_container>
 </equipment_list>
